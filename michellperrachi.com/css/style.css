@@ -23,6 +23,11 @@ a {
     transition: all 0.2s ease-in-out;
 }
 
+.lead-sm {
+    font-size: 1.90rem;
+    font-weight: 4000;
+    margin-bottom: 15px;
+}
 a:hover {
     color: #0078ff;
     text-decoration: none;
@@ -46,7 +51,7 @@ a:hover {
 }
 p {
     margin-top: 0;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.1rem;
 }
 .box-shadow,
 .paralax-mf,
@@ -258,12 +263,13 @@ p {
 }
 
 .list-ico {
-    line-height: 2;
+    line-height: 2.3;
 }
 
 .list-ico span {
     color: #0078ff;
-    margin-right: 10px;
+    margin-right: 15px;
+    font-size: 150%;
 }
 
 
@@ -441,7 +447,7 @@ p {
 .navbar-b.navbar-trans .nav-link,
 .navbar-b.navbar-reduce .nav-link {
     color: #fff;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 600;
 }
 
@@ -794,6 +800,7 @@ p {
    color: white;
    font-size: 185%;
    margin-bottom: 1;
+   text-transform: capitalize;
 
 }
 
