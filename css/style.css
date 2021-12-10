@@ -1179,9 +1179,11 @@ footer .credits a {
 //--//-->   BUTTON
 ======================================*/
 .img-fluid {
+    padding: 10px;
     max-width: 100%;
     height: auto;
-    border-radius: 6px;
+    border-radius: 28px;
+    box-shadow: 20px #4e4e4e;
 }
 .button {
     display: inline-block;
@@ -1239,11 +1241,12 @@ footer .credits a {
 
 @media (min-width: 767px) {
     .about-mf .box-pl2 {
-        margin-top: 3rem;
+        margin-left: 3rem;
+        margin-top: 2rem;
         padding-left: 0rem;
     }
     .card-blog {
-        margin-bottom: 3rem;
+        margin-bottom: 10rem;
         border-radius: 6px;
     }
     .contact-mf .box-pl2 {
