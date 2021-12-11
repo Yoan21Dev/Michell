@@ -65,7 +65,15 @@ p {
 .button:hover {
     box-shadow: 0 0 0 4px #cde1f8;
 }
-
+.navbar-nav {
+    display: -ms-flexbox;
+    display: -webkit-inline-box;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
 .display-5 {
     font-size: 2.5rem;
     font-weight: 300;
@@ -177,6 +185,9 @@ p {
     margin: 0 auto;
 }
 
+.center-os{
+    text-align: center;
+}
 
 /*--/ Title Left /--*/
 
@@ -187,6 +198,7 @@ p {
 .title-left {
     font-size: 2rem;
     position: relative;
+    text-align: center;
 }
 .title-left-a {
     font-size: 2rem;
@@ -215,6 +227,7 @@ p {
     background-color: #fff;
     margin-bottom: 3rem;
     z-index: 2;
+    border-radius: 15px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -349,6 +362,9 @@ p {
 
 /* Back to top button */
 
+.button-center{
+    text-align: center;
+}
 .back-to-top {
     position: fixed;
     display: none;
@@ -1247,7 +1263,7 @@ footer .credits a {
     }
     .card-blog {
         margin-bottom: 10rem;
-        border-radius: 6px;
+        border-radius: 10px;
     }
     .contact-mf .box-pl2 {
         margin-top: 3rem;
@@ -1255,7 +1271,7 @@ footer .credits a {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 400px) {
     .box-shadow-full {
         padding: 3rem;
     }
