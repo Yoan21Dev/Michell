@@ -1244,7 +1244,7 @@ footer .credits a {
 
 .btn-lg {
     padding: .5rem 1rem;
-    font-size: 1.25rem;
+    font-size: 1.10rem;
     line-height: 1.5;
     border-radius: .3rem;
 }
@@ -1262,16 +1262,16 @@ footer .credits a {
         padding-left: 0rem;
     }
     .card-blog {
-        margin-bottom: 10rem;
+        margin-bottom: 3rem;
         border-radius: 10px;
     }
     .contact-mf .box-pl2 {
-        margin-top: 3rem;
+        margin-top: 2rem;
         padding-left: 0rem;
     }
 }
 
-@media (min-width: 79px) {
+@media (min-width: 400px) {
     .box-shadow-full {
         padding: 3rem;
     }
