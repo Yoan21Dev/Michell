@@ -51,7 +51,7 @@ a:hover {
 }
 p {
     margin-top: 0;
-    margin-bottom: 0.1rem;
+    margin-bottom: 0.2rem;
 }
 .box-shadow,
 .paralax-mf,
@@ -79,7 +79,9 @@ p {
     font-weight: 300;
     line-height: 1.1;
 }
-
+.lead {
+    margin-top: 15px;
+}
 .display-6 {
     font-size: 2rem;
     font-weight: 300;
